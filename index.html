@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Details</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Employee <span>Details</span></h2>
+    <button id="addNewBtn">+ Add New</button>
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email Address</th>
+          <th>Phone</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div id="employeeModal" class="modal">
+    <div class="modal-content">
+      <h3>Employee Details</h3>
+      <input type="text" id="name" placeholder="Name">
+      <input type="email" id="email" placeholder="Email Address">
+      <input type="text" id="phone" placeholder="Phone">
+      <button id="saveBtn">Save</button>
+      <button id="closeModalBtn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+
